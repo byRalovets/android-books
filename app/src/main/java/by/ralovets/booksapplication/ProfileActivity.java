@@ -1,19 +1,12 @@
 package by.ralovets.booksapplication;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
-import android.widget.EditText;
 
-import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
-import com.google.android.gms.tasks.Task;
-import com.google.firebase.firestore.DocumentReference;
-import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.storage.FileDownloadTask;
 import com.google.firebase.storage.FirebaseStorage;
@@ -23,7 +16,6 @@ import com.squareup.picasso.Picasso;
 import java.io.File;
 import java.io.IOException;
 
-import by.ralovets.booksapplication.databinding.ActivityMainBinding;
 import by.ralovets.booksapplication.databinding.ActivityProfileBinding;
 import by.ralovets.booksapplication.fragments.home.ImagesNahui;
 
@@ -93,7 +85,7 @@ public class ProfileActivity extends AppCompatActivity {
         });
 
         binding.video.setOnClickListener(l -> {
-            Intent i = new Intent(ProfileActivity.this, VideoGallery.class);
+            Intent i = new Intent(ProfileActivity.this, VideoGalleryActivity.class);
             i.putExtra("email", arguments.getString("username"));
             startActivity(i);
         });

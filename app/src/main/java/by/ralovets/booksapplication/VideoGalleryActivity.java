@@ -15,7 +15,7 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 import java.util.List;
 
-public class VideoGallery extends AppCompatActivity {
+public class VideoGalleryActivity extends AppCompatActivity {
 
     private RecyclerView mRecyclerView;
     private VideoAdapter mAdapter;
@@ -48,7 +48,7 @@ public class VideoGallery extends AppCompatActivity {
                     }
                 }
 
-                mAdapter = new VideoAdapter(VideoGallery.this, mUploads);
+                mAdapter = new VideoAdapter(VideoGalleryActivity.this, mUploads);
 
                 mRecyclerView.setAdapter(mAdapter);
             }

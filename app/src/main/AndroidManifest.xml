@@ -14,7 +14,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BooksApplication">
-        <activity android:name=".VideoGallery"></activity>
+        <activity android:name=".VideoGalleryActivity"></activity>
         <activity android:name=".EditVideoActivity" />
         <activity android:name=".GalleryActivity" />
         <activity android:name=".EditImageGalleryActivity" />
