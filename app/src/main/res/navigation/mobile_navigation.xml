@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="by.ralovets.booksapplication.fragments.home.HomeFragment"
+        android:name="by.ralovets.booksapplication.fragment.HomeFragment"
         android:label="@string/title_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/navigation_map"
-        android:name="by.ralovets.booksapplication.fragments.map.MapFragment"
+        android:name="by.ralovets.booksapplication.fragment.MapFragment"
         android:label="@string/title_map"
         tools:layout="@layout/fragment_map" />
 
     <fragment
         android:id="@+id/navigation_settings"
-        android:name="by.ralovets.booksapplication.fragments.settings.SettingsFragment"
+        android:name="by.ralovets.booksapplication.fragment.SettingsFragment"
         android:label="@string/title_settings"
         tools:layout="@layout/fragment_settings" />
 </navigation>

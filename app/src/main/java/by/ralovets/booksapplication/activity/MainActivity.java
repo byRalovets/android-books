@@ -1,25 +1,16 @@
-package by.ralovets.booksapplication;
+package by.ralovets.booksapplication.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.ImageView;
-
-import com.google.android.material.bottomnavigation.BottomNavigationView;
-import com.google.firebase.auth.FirebaseAuth;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
-import androidx.navigation.fragment.NavHostFragment;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
+import by.ralovets.booksapplication.R;
 import by.ralovets.booksapplication.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {

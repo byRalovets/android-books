@@ -1,4 +1,4 @@
-package by.ralovets.booksapplication;
+package by.ralovets.booksapplication.activity;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -37,6 +37,9 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
+import by.ralovets.booksapplication.component.LockableScrollView;
+import by.ralovets.booksapplication.R;
+import by.ralovets.booksapplication.model.Upload;
 import by.ralovets.booksapplication.databinding.ActivityEditProfileBinding;
 
 public class EditProfileActivity extends AppCompatActivity {

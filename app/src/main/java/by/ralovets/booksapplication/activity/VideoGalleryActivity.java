@@ -1,4 +1,4 @@
-package by.ralovets.booksapplication;
+package by.ralovets.booksapplication.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -14,6 +14,10 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import by.ralovets.booksapplication.R;
+import by.ralovets.booksapplication.model.Upload;
+import by.ralovets.booksapplication.adapter.VideoAdapter;
 
 public class VideoGalleryActivity extends AppCompatActivity {
 

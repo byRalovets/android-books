@@ -1,4 +1,4 @@
-package by.ralovets.booksapplication;
+package by.ralovets.booksapplication.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -18,6 +18,7 @@ import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
 import com.squareup.picasso.Picasso;
 
+import by.ralovets.booksapplication.model.Upload;
 import by.ralovets.booksapplication.databinding.ActivityEditImageGalleryBinding;
 
 public class EditImageGalleryActivity extends AppCompatActivity {

@@ -14,23 +14,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BooksApplication">
-        <activity android:name=".VideoGalleryActivity"></activity>
-        <activity android:name=".EditVideoActivity" />
-        <activity android:name=".GalleryActivity" />
-        <activity android:name=".EditImageGalleryActivity" />
-        <activity android:name=".ImagesGalleryActivity" />
-        <activity android:name=".EditProfileActivity" />
+        <activity android:name=".activity.VideoGalleryActivity"></activity>
+        <activity android:name=".activity.EditVideoActivity" />
+        <activity android:name=".activity.GalleryActivity" />
+        <activity android:name=".activity.EditImageGalleryActivity" />
+        <activity android:name=".activity.ImagesGalleryActivity" />
+        <activity android:name=".activity.EditProfileActivity" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyA2NylQkHxhTcfIQkiVX4UUZ3eiDJrsLsA" />
 
-        <activity android:name=".ProfileActivity" />
-        <activity android:name=".RegistrationActivity" />
+        <activity android:name=".activity.ProfileActivity" />
+        <activity android:name=".activity.RegistrationActivity" />
         <activity
-            android:name=".MainActivity"
+            android:name=".activity.MainActivity"
             android:label="@string/title_activity_main" />
-        <activity android:name=".LoginActivity">
+        <activity android:name=".activity.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

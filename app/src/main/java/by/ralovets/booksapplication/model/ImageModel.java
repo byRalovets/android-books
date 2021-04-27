@@ -1,4 +1,4 @@
-package by.ralovets.booksapplication;
+package by.ralovets.booksapplication.model;
 
 public class ImageModel {
 

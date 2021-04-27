@@ -1,4 +1,4 @@
-package by.ralovets.booksapplication;
+package by.ralovets.booksapplication.component;
 
 import android.content.Context;
 import android.util.AttributeSet;

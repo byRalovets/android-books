@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Книги</string>
+    <string name="welcome">Добро пожаловать!</string>
+    <string name="login_header">Пожалуйста, войдите!</string>
+    <string name="login_button">Войти</string>
+    <string name="signup_button">Регистрация</string>
+    <string name="signup_header">Пожалуйста, зарегистрируйтесь!</string>
+    <string name="title_activity_main">Главная страница</string>
+    <string name="title_home">Домашняя</string>
+    <string name="title_map">Карта</string>
+    <string name="title_settings">Настройки</string>
+    <string name="email_label">Эл. почта</string>
+    <string name="password_label">Пароль</string>
+    <string name="title_label">Название</string>
+    <string name="year_label">Год издания</string>
+    <string name="pages_label">Число страниц</string>
+    <string name="dont_have_account">У меня нет аккаунта</string>
+    <string name="already_have_account">У меня уже есть аккаунт</string>
+    <string name="photos_header">Фото</string>
+    <string name="videos_header">Видео</string>
+    <string name="save_button">Сохранить</string>
+    <string name="images_button">Фото</string>
+    <string name="videos_button">Видео</string>
+    <string name="choose_button">Выбрать</string>
+    <string name="load_button">Загрузить</string>
+    <string name="author_label">Автор</string>
+    <string name="username_label">Имя пользователя</string>
+    <string name="description_label">Описание</string>
+    <string name="map_label">Карта (кликните на лейблу, чтобы зафиксировать)</string>
+    <string name="load_image">Загрузить фото</string>
+    <string name="upload_image">Сохранить фото</string>
+    <string name="show_images">Показать фото</string>
+    <string name="book_title">Название</string>
+    <string name="an_image_for_the_item">картинка</string>
+    <string name="default_title">Заголовок по умолчанию</string>
+    <string name="defaultusername">Имя пользователя по умолчанию</string>
+    <string name="default_year">2001</string>
+    <string name="default_pages">124 страницы</string>
+    <string name="settings_header">Настройки</string>
+</resources>

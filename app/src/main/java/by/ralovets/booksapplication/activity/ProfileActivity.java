@@ -1,4 +1,4 @@
-package by.ralovets.booksapplication;
+package by.ralovets.booksapplication.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -16,8 +16,9 @@ import com.squareup.picasso.Picasso;
 import java.io.File;
 import java.io.IOException;
 
+import by.ralovets.booksapplication.model.ImageModel;
 import by.ralovets.booksapplication.databinding.ActivityProfileBinding;
-import by.ralovets.booksapplication.fragments.home.ImagesNahui;
+import by.ralovets.booksapplication.util.ImagesNahui;
 
 public class ProfileActivity extends AppCompatActivity {
 

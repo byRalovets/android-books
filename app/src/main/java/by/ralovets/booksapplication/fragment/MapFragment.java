@@ -1,19 +1,14 @@
-package by.ralovets.booksapplication.fragments.map;
+package by.ralovets.booksapplication.fragment;
 
-import android.Manifest;
 import android.content.Intent;
-import android.content.pm.PackageManager;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
-import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
@@ -27,20 +22,13 @@ import com.google.firebase.firestore.QuerySnapshot;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
-import java.util.Set;
 
-import by.ralovets.booksapplication.ImageModel;
-import by.ralovets.booksapplication.MainActivity;
-import by.ralovets.booksapplication.ProfileActivity;
+import by.ralovets.booksapplication.activity.ProfileActivity;
 import by.ralovets.booksapplication.R;
 import by.ralovets.booksapplication.databinding.FragmentMapBinding;
-import by.ralovets.booksapplication.fragments.home.BooksGridAdapter;
-import by.ralovets.booksapplication.fragments.home.HomeFragment;
-import by.ralovets.booksapplication.fragments.home.ImagesNahui;
 
 public class MapFragment extends Fragment {
 

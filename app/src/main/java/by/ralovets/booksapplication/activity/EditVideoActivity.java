@@ -1,6 +1,5 @@
-package by.ralovets.booksapplication;
+package by.ralovets.booksapplication.activity;
 
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.ContentResolver;
@@ -10,7 +9,6 @@ import android.os.Bundle;
 import android.webkit.MimeTypeMap;
 import android.widget.Button;
 import android.widget.MediaController;
-import android.widget.Toast;
 import android.widget.VideoView;
 
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -20,7 +18,9 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
-import com.squareup.picasso.Picasso;
+
+import by.ralovets.booksapplication.R;
+import by.ralovets.booksapplication.model.Upload;
 
 public class EditVideoActivity extends AppCompatActivity {
 
