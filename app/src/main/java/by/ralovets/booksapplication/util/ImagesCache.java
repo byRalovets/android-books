@@ -5,6 +5,6 @@ import java.util.Map;
 
 import by.ralovets.booksapplication.model.ImageModel;
 
-public class ImagesNahui {
+public class ImagesCache {
     public static Map<String, ImageModel> userImages = new HashMap<>();
 }

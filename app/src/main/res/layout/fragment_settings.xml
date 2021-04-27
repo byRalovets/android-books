@@ -31,16 +31,6 @@
         app:layout_constraintTop_toBottomOf="@+id/language_switch" />
 
     <androidx.appcompat.widget.SwitchCompat
-        android:id="@+id/mode_switch"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="16dp"
-        android:text="@string/dark_mode_label"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
-
-    <androidx.appcompat.widget.SwitchCompat
         android:id="@+id/language_switch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -48,5 +38,5 @@
         android:layout_marginTop="16dp"
         android:text="@string/language"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/mode_switch" />
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 </androidx.constraintlayout.widget.ConstraintLayout>

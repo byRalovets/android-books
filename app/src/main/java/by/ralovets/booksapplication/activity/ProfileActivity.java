@@ -18,7 +18,7 @@ import java.io.IOException;
 
 import by.ralovets.booksapplication.model.ImageModel;
 import by.ralovets.booksapplication.databinding.ActivityProfileBinding;
-import by.ralovets.booksapplication.util.ImagesNahui;
+import by.ralovets.booksapplication.util.ImagesCache;
 
 public class ProfileActivity extends AppCompatActivity {
 
@@ -52,7 +52,7 @@ public class ProfileActivity extends AppCompatActivity {
             binding.description.setText(arguments.getString("description"));
             binding.author.setText(arguments.getString("author"));
 
-            ImageModel imageModel = ImagesNahui.userImages.get(arguments.getString("username"));
+            ImageModel imageModel = ImagesCache.userImages.get(arguments.getString("username"));
             if (imageModel != null) {
                 StorageReference mStorageRef;
                 mStorageRef = FirebaseStorage.getInstance().getReference("avatars");

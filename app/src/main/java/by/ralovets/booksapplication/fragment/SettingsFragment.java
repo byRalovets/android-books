@@ -51,6 +51,8 @@ public class SettingsFragment extends Fragment {
 
         binding.logoutButton.setOnClickListener(l -> {
             FirebaseAuth.getInstance().signOut();
+            editor.remove("LANG");
+            editor.apply();
             Intent loginscreen = new Intent(requireActivity(), LoginActivity.class);
             requireActivity().finish();
             loginscreen.setFlags( Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NO_HISTORY);

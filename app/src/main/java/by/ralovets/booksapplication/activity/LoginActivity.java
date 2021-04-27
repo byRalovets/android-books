@@ -44,7 +44,9 @@ public class LoginActivity extends AppCompatActivity {
 
         SharedPreferences sharedPreferences = getSharedPreferences("SETTINGS", Context.MODE_PRIVATE);
         String lang = sharedPreferences.getString("LANG", "en");
-        setAppLocale(this, lang);
+        if (lang.equals("ru")) {
+            setAppLocale(this, lang);
+        }
 
         binding = ActivityLoginBinding.inflate(getLayoutInflater());
 
@@ -114,7 +116,7 @@ public class LoginActivity extends AppCompatActivity {
                         Log.d(TAG, "signInWithEmail: success");
                         FirebaseUser user = mAuth.getCurrentUser();
                         if (user != null) {
-                            Toast.makeText(LoginActivity.this, user.toString(), Toast.LENGTH_SHORT).show();
+                            //Toast.makeText(LoginActivity.this, user.toString(), Toast.LENGTH_SHORT).show();
                             startActivity(new Intent(LoginActivity.this, MainActivity.class));
                         }
                         startActivity(new Intent(LoginActivity.this, MainActivity.class));
@@ -122,8 +124,8 @@ public class LoginActivity extends AppCompatActivity {
                     } else {
                         Log.w(TAG, "signInWithEmail: failure", task.getException());
                         if (task.getException() != null) {
-                            Toast.makeText(LoginActivity.this, "Authentication failed: " + task.getException().getMessage(),
-                                    Toast.LENGTH_SHORT).show();
+                            //Toast.makeText(LoginActivity.this, "Authentication failed: " + task.getException().getMessage(),
+                              //      Toast.LENGTH_SHORT).show();
                         }
                     }
                 });
@@ -147,7 +149,7 @@ public class LoginActivity extends AppCompatActivity {
         }
         resources.updateConfiguration(configuration, resources.getDisplayMetrics());
 
-        Intent intent = new Intent(activity, MainActivity.class);
+        Intent intent = new Intent(activity, LoginActivity.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
         startActivity(intent);
 

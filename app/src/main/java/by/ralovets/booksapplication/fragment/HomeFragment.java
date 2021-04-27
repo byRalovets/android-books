@@ -24,7 +24,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Objects;
 
-import by.ralovets.booksapplication.util.ImagesNahui;
+import by.ralovets.booksapplication.util.ImagesCache;
 import by.ralovets.booksapplication.adapter.BooksGridAdapter;
 import by.ralovets.booksapplication.model.ImageModel;
 import by.ralovets.booksapplication.activity.ProfileActivity;
@@ -67,7 +67,7 @@ public class HomeFragment extends Fragment {
                                 }
                             }
 
-                            ImagesNahui.userImages = userImages;
+                            ImagesCache.userImages = userImages;
 
                             gridView = binding.booksGridView;
                             BooksGridAdapter customAdapter = new BooksGridAdapter(getActivity().getApplicationContext(), books.toArray(new Map[0]));

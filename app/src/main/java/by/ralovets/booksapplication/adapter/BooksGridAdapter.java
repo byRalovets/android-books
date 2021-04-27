@@ -22,7 +22,7 @@ import java.util.Map;
 import java.util.Objects;
 import java.util.Set;
 
-import by.ralovets.booksapplication.util.ImagesNahui;
+import by.ralovets.booksapplication.util.ImagesCache;
 import by.ralovets.booksapplication.model.ImageModel;
 import by.ralovets.booksapplication.R;
 
@@ -68,7 +68,7 @@ public class BooksGridAdapter extends BaseAdapter {
 
         ImageView imageView = (ImageView) view.findViewById(R.id.book_image);
 
-        ImageModel imageModel = ImagesNahui.userImages.get(items[i].get("email"));
+        ImageModel imageModel = ImagesCache.userImages.get(items[i].get("email"));
         if (imageModel != null) {
             StorageReference mStorageRef = FirebaseStorage.getInstance().getReference("avatars");
             StorageReference mRef = mStorageRef.child(imageModel.name + "." + imageModel.postfix);
