@@ -1,0 +1,11 @@
+<resources>
+    <dimen name="header_size">24sp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="book_grid_item_title">22sp</dimen>
+    <dimen name="book_grid_item_username">18sp</dimen>
+    <dimen name="book_grid_item_year">18sp</dimen>
+    <dimen name="book_grid_item_pages">18sp</dimen>
+</resources>

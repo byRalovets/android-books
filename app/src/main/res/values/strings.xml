@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Books Application</string>
+    <string name="welcome">Welcome!</string>
+    <string name="login_header">Please, Log In</string>
+
+    <string name="login_button">Log In</string>
+    <string name="signup_button">Sign Up</string>
+    <string name="signup_header">Please, Sign Up</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_map">Map</string>
+    <string name="title_settings">Settings</string>
+
+    <string name="email_label">Email</string>
+    <string name="password_label">Password</string>
+    <string name="title_label">Title</string>
+    <string name="year_label">Year</string>
+    <string name="pages_label">Pages</string>
+
+    <string name="dont_have_account">I don\'t have an account</string>
+    <string name="already_have_account">I already have an account</string>
+</resources>
